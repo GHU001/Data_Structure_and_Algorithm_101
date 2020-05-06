@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Updated nodelink" />
+    <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Updated nodelink">
+      <change beforePath="$PROJECT_DIR$/../Data Structure and Algorithm/Notelink.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structure and Algorithm/Notelink.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,7 +32,28 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Data Structure and Algorithm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.Notelink">
+    <configuration name="Notelink" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Data Structure and Algorithm" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../Data Structure and Algorithm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../Data Structure and Algorithm/Notelink.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Data Structure and Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -118,6 +141,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Notelink" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -135,6 +159,10 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Updated nodelink" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated nodelink" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582353082374">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -144,30 +172,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1189" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582349487426" />
-    <state x="1051" y="0" key="CommitChangelistDialog2" timestamp="1588778114078">
+    <state x="1051" y="0" key="CommitChangelistDialog2" timestamp="1588778408805">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588778114078" />
+    <state x="1051" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588778408805" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1588778295952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588778295952" />
-    <state width="936" height="284" key="GridCell.Tab.0.bottom" timestamp="1586505869153">
+    <state x="1253" y="154" key="Github.ShareDialog" timestamp="1588778622261">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="284" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586505869153" />
-    <state width="936" height="284" key="GridCell.Tab.0.center" timestamp="1586505869153">
+    <state x="1253" y="154" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588778622261" />
+    <state x="1185" y="0" key="Github.UntrackedFilesDialog" timestamp="1588778631072">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="284" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586505869153" />
-    <state width="936" height="284" key="GridCell.Tab.0.left" timestamp="1586505869153">
+    <state x="1185" y="0" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588778631072" />
+    <state width="936" height="381" key="GridCell.Tab.0.bottom" timestamp="1588780439468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="284" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586505869153" />
-    <state width="936" height="284" key="GridCell.Tab.0.right" timestamp="1586505869153">
+    <state width="936" height="381" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588780439468" />
+    <state width="936" height="381" key="GridCell.Tab.0.center" timestamp="1588780439468">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="936" height="284" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586505869153" />
+    <state width="936" height="381" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588780439468" />
+    <state width="936" height="381" key="GridCell.Tab.0.left" timestamp="1588780439468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588780439468" />
+    <state width="936" height="381" key="GridCell.Tab.0.right" timestamp="1588780439468">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="936" height="381" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588780439468" />
     <state x="636" y="223" key="SettingsEditor" timestamp="1584282772770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -176,9 +212,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587891596928" />
-    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588778117015">
+    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588780446367">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588778117015" />
+    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588780446367" />
   </component>
 </project>
