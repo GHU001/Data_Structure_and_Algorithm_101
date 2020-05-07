@@ -42,7 +42,17 @@ class LinkList:
         return self.head.data
 
 
+'''
+插入和删除
+insert
+p = current_node.next
+current_node.next = p
 
+delete
+p = current_node.next
+current_node.next = p.next
+del p
+'''
 
 
 
