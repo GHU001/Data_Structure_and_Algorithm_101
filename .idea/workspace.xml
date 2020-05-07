@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../Data Structure and Algorithm/Notelink.py" beforeDir="false" afterPath="$PROJECT_DIR$/../Data Structure and Algorithm/Notelink.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Data Structure and Algorithm/BiTreeNode.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588822074503</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated nodelink">
+      <created>1588836031446</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588836031446</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -183,14 +190,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="828" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1582353082374" />
-    <state x="1189" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582349487426">
+    <state x="1189" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588836048038">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1189" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1582349487426" />
-    <state x="1051" y="0" key="CommitChangelistDialog2" timestamp="1588822068984">
+    <state x="1189" y="323" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588836048038" />
+    <state x="1051" y="0" key="CommitChangelistDialog2" timestamp="1588836020885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1051" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588822068984" />
+    <state x="1051" y="0" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1588836020885" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1588778295952">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -223,17 +230,17 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="636" y="223" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584282772770" />
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588822145579">
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2" timestamp="1588836036050">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588822145579" />
+    <state x="1032" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588836036050" />
     <state x="1120" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587891596928">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1120" y="344" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1587891596928" />
-    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588835973034">
+    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588865078122">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588835973034" />
+    <state x="1232" y="181" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588865078122" />
   </component>
 </project>
