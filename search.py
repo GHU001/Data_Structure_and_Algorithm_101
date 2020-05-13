@@ -13,16 +13,45 @@ def bin_search(li, val):
             high = mid -1
     return -1
 
-print(bin_search(li, 7))
 
 
 
 
 
+#bubble sort
 def bubble_sort(li):
     for i in range(len(li)-1):
+        exchange = False
         for j in range(len(i)- i - 1):
             if li[j] > li[j + 1]:
                 li[j], li[j + 1] = li[j + 1], li[j]
+                exchange = True
+        if not exchange:
+            break
+
+
+
+#####
+#select sort
+
+def min_pos(li):
+    min_pos = 0
+    for i in range(1, len(li)):
+        if li[i] < li[min_pos]:
+            min_pos = i
+
+    return min_pos
+
+def select_sort(li):
+    for i in range(len(li)):
+        min_po = min_pos(li[i:]) + i
+
+        li[i], li[min_po] = li[min_po], li[i]
+    return li
+
+
+print(select_sort(li))
+
+
 
 
