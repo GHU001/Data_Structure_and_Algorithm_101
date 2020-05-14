@@ -21,13 +21,14 @@ def partition(li, left, right):
     tem = li[left]
 
     while left < right:
-        while li[right] > tem:
+        while li[right] > tem and left < right:
             right -= 1
         li[left] = li[right]
 
-        while li[left] < tem:
+        while li[left] < tem and left < right:
             left += 1
         li[right] = li[left]
     return left
 
-
+quick_sort(li,0,len(li)-1)
+print(li)
