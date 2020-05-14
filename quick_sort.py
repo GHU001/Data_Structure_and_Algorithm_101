@@ -21,6 +21,13 @@ def partition(li, left, right):
     tem = li[left]
 
     while left < right:
+        while li[right] > tem:
+            right -= 1
+        li[left] = li[right]
 
-    pass
+        while li[left] < tem:
+            left += 1
+        li[right] = li[left]
+    return left
+
 
