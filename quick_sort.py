@@ -45,7 +45,8 @@ def partition(li, left, right):
 # print(li)
 
 def quick_sort2(li):
-
+    if len(li) < 2:
+        return li
     tem = li[0]
     left_set = [v for v in li[1:] if v < tem]
     right_set =[v for v in li[1:] if v > tem]
