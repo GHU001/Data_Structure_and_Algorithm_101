@@ -15,32 +15,34 @@ full   (rear +1) % length == front
 '''
 
 from collections import deque
+import numpy as np
 
 
 #solve maze
 
 dirs =[
 
-    lambda x, y: (X-1, y) # up
-    lambda x, y: (x, y+1) # right
-    lambda x, y: (x+1, Y) # down
+    lambda x, y: (x-1, y), # up
+    lambda x, y: (x, y+1),# right
+    lambda x, y: (x+1, y), # down
     lambda x, y: (x, y-1) # left
 
 
 ]
 
-maze = []
+maze = np.random.randint(2, size=64).reshape(8,8)
+print(maze)
 
 
 def solve_maze(x1, y1, x2, y2):
 
     stack = []
 
-    stack.append(x1,y1)
+    stack.append((x1,y1))
 
     while len(stack) > 0:
         curr_node = stack[-1]
-        if curr_node == (x2, y2)
+        if curr_node == (x2, y2):
             print(stack)
             return True
 
@@ -55,4 +57,6 @@ def solve_maze(x1, y1, x2, y2):
     print("No route out")
     return False
 
+
+solve_maze(1,1,4,4)
 
