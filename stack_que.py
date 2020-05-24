@@ -16,3 +16,43 @@ full   (rear +1) % length == front
 
 from collections import deque
 
+
+#solve maze
+
+dirs =[
+
+    lambda x, y: (X-1, y) # up
+    lambda x, y: (x, y+1) # right
+    lambda x, y: (x+1, Y) # down
+    lambda x, y: (x, y-1) # left
+
+
+]
+
+maze = []
+
+
+def solve_maze(x1, y1, x2, y2):
+
+    stack = []
+
+    stack.append(x1,y1)
+
+    while len(stack) > 0:
+        curr_node = stack[-1]
+        if curr_node == (x2, y2)
+            print(stack)
+            return True
+
+        for d in dirs:
+            next_node = d(*curr_node)
+            if maze[next_node[0]][next_node[1]] == 0:
+                stack.append(next_node)
+                maze[next_node[0]][next_node[1]] = 2
+                break
+        else:
+            stack.pop()
+    print("No route out")
+    return False
+
+
