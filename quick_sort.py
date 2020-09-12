@@ -9,6 +9,7 @@
 ######
 #quick sort
 import random
+from cal_time import *
 
 li = list(range(1000))
 random.shuffle(li)
@@ -40,9 +41,7 @@ def partition(li, left, right):
 #
 
 
-quick_sort(li,0,len(li) - 1)
 
-print(li)
 
 def quick_sort2(li):
     if len(li) < 2:
@@ -53,4 +52,45 @@ def quick_sort2(li):
     left_set = quick_sort2(left_set)
     right_set= quick_sort2(right_set)
     return left_set + [tem] + right_set
+
+
+def bubble_sort(li):
+    for i in range(len(li)-1):
+        exchange = False
+        for j in range(len(li)- i -1):
+            if li[j] > li[j+1]:
+                li[j], li[j+1] = li[j+1], li[j]
+                exchange = True
+        if not exchange:
+            return
+
+@cal_time
+def select_sort(li):
+    for i in range(len(li) -1):
+        min_loc = i
+        for j in range(i, len(li)):
+            if li[j] < li[min_loc]:
+                min_loc = j
+        if min_loc != i:
+             li[i], li[min_loc] = li[min_loc], li[i]
+
+
+@cal_time
+def insert_sort(li):
+    for i in range(len(li)): # i index of new card
+        j = i - 1 #j num of cards on hand
+        tem = li[i]
+        while j>=0 and li[j] > tem:
+            li[j+1] = li[j]
+            j -= 1
+        li[j+1] = tem
+
+
+
+
+
+print(li)
+insert_sort(li)
+print(li)
+
 
