@@ -75,6 +75,27 @@ full   (rear +1) % length == front
 
 '''
 
+class Queue:
+    def __init__(self, size = 100):
+        self.queue = [0 for _ in range(size)]
+        self.front = 0 #队首指针
+        self.rear = 0  #对尾指针
+        self.size = size
+
+    def push(self, element):
+        self.rear = (self.rear + 1) % self.size
+        self.queue[self.rear] = element
+
+    def pop(self):
+        self.front = (self.front + 1) % self.size
+        return self.queue[self.front]
+
+    def is_empty(self):
+        return self.front == self.rear
+
+    def is_filled(self):
+        return (self.rear + 1) == self.front
+
 from collections import deque
 import numpy as np
 
