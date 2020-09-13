@@ -67,4 +67,6 @@ def heap_sort(li):
 
 '''
 heapq
+heapq.heapify(li)
+heapq.heappop(li)
 '''
