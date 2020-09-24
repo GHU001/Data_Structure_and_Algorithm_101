@@ -57,7 +57,7 @@ class BST(object):
 
     def pre_order(self, root):
         if root:
-            print(root.data, end='')
+            print(root.data, end=' ')
             self.pre_order(root.lchild)
             self.pre_order(root.rchild)
 
@@ -66,17 +66,25 @@ class BST(object):
             self.post_order(root.lchild)
 
             self.post_order(root.rchild)
-            print(root.data, end='')
+            print(root.data, end=' ')
 
     def in_order(self, root):
         if root:
             self.in_order(root.lchild)
-            print(root.data, end='')
+            print(root.data, end=' ')
             self.in_order(root.rchild)
 
 
 
 
+import random
+from collections import deque
+
+li = list(range(100))
+random.shuffle(li)
+
+bst = BST(li)
+bst.in_order(bst.root)
 
 
 
