@@ -54,6 +54,29 @@ class BST(object):
                     return
             else:
                 return
+    def query(self, node, val):
+        if not node:
+            return None
+
+        if val > node.data:
+            return self.query(node.rchild, val)
+        elif val < node.data:
+            return self.query(node.left, val)
+        else:
+            return node
+
+    def query_no_rec(self, val):
+        p = self.root
+        while p:
+            if p.data < val:
+                p = p.rchild
+            elif p.data > val:
+                p = p.lchild
+            else:
+                return p
+        return None
+
+
 
     def pre_order(self, root):
         if root:

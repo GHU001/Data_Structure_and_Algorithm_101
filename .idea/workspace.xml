@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/BST.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Hash_table.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tree.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Notelink.py" beforeDir="false" afterPath="$PROJECT_DIR$/Notelink.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/BST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,7 +17,7 @@
       <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quick_sort.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
+            <state relative-caret-position="930">
               <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
               <folding>
                 <element signature="e#100#113#0" expanded="true" />
@@ -77,7 +74,7 @@
       <file leaf-file-name="BiTreeNode.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BiTreeNode.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
+            <state relative-caret-position="735">
               <caret line="49" lean-forward="true" selection-start-line="20" selection-end-line="49" />
             </state>
           </provider>
@@ -86,8 +83,8 @@
       <file leaf-file-name="BST.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BST.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="433">
-              <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -192,7 +189,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.merge_sort">
+  <component name="RunManager" selected="Python.BST">
+    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Structure_and_Algorithm_101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Data Structure and Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,24 +239,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cal_time.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Structure_and_Algorithm_101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -343,18 +340,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.quick_sort" />
-      <item itemvalue="Python.main" />
       <item itemvalue="Python.stack_que" />
       <item itemvalue="Python.cal_time" />
       <item itemvalue="Python.merge_sort" />
+      <item itemvalue="Python.BST" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.BST" />
         <item itemvalue="Python.merge_sort" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.cal_time" />
         <item itemvalue="Python.stack_que" />
-        <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
   </component>
@@ -523,14 +520,28 @@
       <option name="project" value="LOCAL" />
       <updated>1600014495377</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Default Changelist">
+      <created>1600960405671</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1600960405672</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Default Changelist">
+      <created>1600960661629</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1600960661629</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1440" y="203" width="1440" height="877" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16349542" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16349542" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32820514" />
@@ -923,7 +934,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quick_sort.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
+        <state relative-caret-position="930">
           <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
           <folding>
             <element signature="e#100#113#0" expanded="true" />
@@ -975,15 +986,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BiTreeNode.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
+        <state relative-caret-position="735">
           <caret line="49" lean-forward="true" selection-start-line="20" selection-end-line="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BST.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="67" column="17" selection-start-line="67" selection-start-column="17" selection-end-line="67" selection-end-column="17" />
+        <state relative-caret-position="323">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="24" selection-end-line="75" selection-end-column="24" />
         </state>
       </provider>
     </entry>
