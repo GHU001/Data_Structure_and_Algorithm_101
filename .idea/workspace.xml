@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Default Changelist">
+      <change afterPath="$PROJECT_DIR$/Example/数字交换.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/贪心算法.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/BST.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,27 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quick_sort.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/quick_sort.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="31" selection-start-line="62" selection-start-column="31" selection-end-line="62" selection-end-column="31" />
-              <folding>
-                <element signature="e#100#113#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="stack_que.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/stack_que.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,11 +60,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BST.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BST.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BST.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="357">
               <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="数字交换.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Example/数字交换.py">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="贪心算法.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/贪心算法.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -137,6 +131,8 @@
         <option value="$PROJECT_DIR$/Hash_table.py" />
         <option value="$PROJECT_DIR$/Tree.py" />
         <option value="$PROJECT_DIR$/BST.py" />
+        <option value="$PROJECT_DIR$/Example/数字交换.py" />
+        <option value="$PROJECT_DIR$/Example/贪心算法.py" />
       </list>
     </option>
   </component>
@@ -159,6 +155,11 @@
             <path>
               <item name="Data Structure and Algorithm" type="b2602c69:ProjectViewProjectNode" />
               <item name="Data_Structure_and_Algorithm_101" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Data Structure and Algorithm" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Data_Structure_and_Algorithm_101" type="462c0819:PsiDirectoryNode" />
+              <item name="Example" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -189,7 +190,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.BST">
+  <component name="RunManager" selected="Python.贪心算法">
+    <configuration name="贪心算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Structure_and_Algorithm_101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/贪心算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Structure_and_Algorithm_101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -280,24 +299,6 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
-    <configuration name="stack_que" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Structure_and_Algorithm_101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stack_que.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
       <module name="Data Structure and Algorithm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -340,18 +341,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.quick_sort" />
-      <item itemvalue="Python.stack_que" />
       <item itemvalue="Python.cal_time" />
       <item itemvalue="Python.merge_sort" />
       <item itemvalue="Python.BST" />
+      <item itemvalue="Python.贪心算法" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.贪心算法" />
         <item itemvalue="Python.BST" />
         <item itemvalue="Python.merge_sort" />
         <item itemvalue="Python.quick_sort" />
         <item itemvalue="Python.cal_time" />
-        <item itemvalue="Python.stack_que" />
       </list>
     </recent_temporary>
   </component>
@@ -548,7 +549,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601114676241</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Default Changelist">
+      <created>1601115161812</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1601115161812</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -645,20 +653,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heap_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1755">
-          <caret line="117" column="4" selection-start-line="117" selection-start-column="4" selection-end-line="117" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/merge_sort.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stack_que.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1395">
@@ -1008,6 +1002,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
           <caret line="187" column="8" selection-start-line="187" selection-start-column="8" selection-end-line="187" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/数字交换.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/贪心算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
