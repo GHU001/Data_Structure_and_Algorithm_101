@@ -185,5 +185,8 @@ random.shuffle(li)
 bst = BST(li)
 bst.in_order(bst.root)
 
+print("")
 
+bst.delete(2)
+bst.in_order(bst.root)
 
