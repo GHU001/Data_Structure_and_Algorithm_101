@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/Example/cal_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Example/dynamic programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example/dynamic programming.py" afterDir="false" />
     </list>
@@ -24,11 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynamic programming.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="dynamic programming.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Example/dynamic programming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            <state relative-caret-position="387">
+              <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -42,7 +41,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cal_time.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="cal_time.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/cal_time.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
@@ -83,8 +82,8 @@
         <option value="$PROJECT_DIR$/BST.py" />
         <option value="$PROJECT_DIR$/Example/贪心算法.py" />
         <option value="$PROJECT_DIR$/Example/数字交换.py" />
-        <option value="$PROJECT_DIR$/Example/dynamic programming.py" />
         <option value="$PROJECT_DIR$/Example/cal_time.py" />
+        <option value="$PROJECT_DIR$/Example/dynamic programming.py" />
       </list>
     </option>
   </component>
@@ -142,7 +141,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.cal_time">
+  <component name="RunManager" selected="Python.dynamic programming">
     <configuration name="贪心算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Structure_and_Algorithm_101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -300,8 +299,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.cal_time" />
         <item itemvalue="Python.dynamic programming" />
+        <item itemvalue="Python.cal_time" />
         <item itemvalue="Python.数字交换" />
         <item itemvalue="Python.贪心算法" />
         <item itemvalue="Python.BST" />
@@ -543,12 +542,18 @@
       <option name="project" value="LOCAL" />
       <updated>1601134423119</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="Default Changelist">
+      <created>1601137787185</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601137787185</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1440" y="203" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16349542" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -993,17 +998,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Example/dynamic programming.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Example/cal_time.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/dynamic programming.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="48" column="8" selection-start-line="48" selection-start-column="8" selection-end-line="48" selection-end-column="8" />
         </state>
       </provider>
     </entry>
