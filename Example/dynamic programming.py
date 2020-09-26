@@ -17,4 +17,13 @@ def fibonacci_non_rec(n):
             f.append(num)
     return f[n]
 
-print(fibonacci_non_rec(100))
+# print(fibonacci_non_rec(100))
+
+
+#钢条切割问题
+'''
+假设长度尾n的钢条切割后最优收益为Rn， 递推公式为
+Rn = max（Pn， R1+Rn-1， R2+Rn-2，... , Rn-1 +R1)
+将钢条切割为长度为i和n-i两段
+方案i的收益为切割两段的收益之和
+'''

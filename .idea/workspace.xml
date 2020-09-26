@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f72cf3d4-f15d-486a-9fdc-c2fdb17df31a" name="Default Changelist" comment="Default Changelist">
-      <change afterPath="$PROJECT_DIR$/Example/dynamic programming.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/cal_time.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Example/dynamic programming.py" beforeDir="false" afterPath="$PROJECT_DIR$/Example/dynamic programming.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,11 +24,29 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dynamic programming.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="dynamic programming.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Example/dynamic programming.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="372">
+              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cal_time.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cal_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cal_time.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Example/cal_time.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -65,6 +84,7 @@
         <option value="$PROJECT_DIR$/Example/贪心算法.py" />
         <option value="$PROJECT_DIR$/Example/数字交换.py" />
         <option value="$PROJECT_DIR$/Example/dynamic programming.py" />
+        <option value="$PROJECT_DIR$/Example/cal_time.py" />
       </list>
     </option>
   </component>
@@ -122,7 +142,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dynamic programming">
+  <component name="RunManager" selected="Python.cal_time">
     <configuration name="贪心算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Structure_and_Algorithm_101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -195,6 +215,24 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="cal_time" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Data_Structure_and_Algorithm_101" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Example" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/cal_time.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <configuration name="dynamic programming" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Data_Structure_and_Algorithm_101" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -208,24 +246,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Example/dynamic programming.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="merge_sort" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Data_Structure_and_Algorithm_101" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/merge_sort.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -272,19 +292,19 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <list>
-      <item itemvalue="Python.merge_sort" />
       <item itemvalue="Python.BST" />
       <item itemvalue="Python.贪心算法" />
       <item itemvalue="Python.数字交换" />
       <item itemvalue="Python.dynamic programming" />
+      <item itemvalue="Python.cal_time" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cal_time" />
         <item itemvalue="Python.dynamic programming" />
         <item itemvalue="Python.数字交换" />
         <item itemvalue="Python.贪心算法" />
         <item itemvalue="Python.BST" />
-        <item itemvalue="Python.merge_sort" />
       </list>
     </recent_temporary>
   </component>
@@ -516,7 +536,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601133541370</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Default Changelist">
+      <created>1601134423119</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601134423119</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -614,13 +641,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/hanhuota.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -865,13 +885,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cal_time.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -973,10 +986,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cal_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Example/dynamic programming.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="372">
+          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Example/cal_time.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
