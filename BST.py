@@ -76,6 +76,82 @@ class BST(object):
                 return p
         return None
 
+    def __remove_node_1(self, node):
+        #情况1： node是叶子节点，直接删
+        if not node.parent:
+            self.root = None
+        if node == node.parent.lchild:
+            node.parent.lchild = None
+            # node.parent = None
+        elif node == node.parent.rchild:
+            node.parent.rchild = None
+            #node.parent = None
+
+    def __remove_node_21(self, node):
+        #node只有一个左孩子
+
+        if not node.parent:
+            self.root = node.lchild
+            node.lchild.parent = None
+        elif node == node.parent.lchild:
+            node.parent.lchild = node.lchild
+            node.lchild.parent = node.parent
+        elif node == node.parent.rchild:
+            node.parent.rchild = node.lchild
+            node.lchild.parent = node.parent
+
+    def __remove_node_22(self, node):
+        #only right child
+        if not node.parent:
+            self.root = node.rchild
+            node.rchild.parent = None
+
+        if node == node.parent.lchild:
+            node.parent.lchild = node.rchild
+            node.rchild.parent = node.parent
+        else:
+            node.parent.rchild = node.rchild
+            node.rchild.parent = node.parent
+
+
+
+
+
+
+
+
+
+    def delete(self, val):
+        if self.root: #not empty tree
+            node = self.query_no_rec(val)
+            if not node: # not exist
+                return False
+            if not node.lchild and not node.rchild:#
+                self.__remove_node_1(node)
+            elif node.lchild and not node.rchild: #2.1
+                self.__remove_node_21(node)
+            elif not node.lchild and node.rchild: #2.2
+                self.__remove_node_22(node)
+            else: #两个节点
+                min_node = node.rchild
+                while min_node.lchild:
+                    min_node = min_node.lchild
+                node.data = min_node.data
+
+                if min_node.rchild:
+                    self.__remove_node_22(min_node)
+                else:
+                    self.__remove_node_1(min_node)
+
+
+
+
+
+
+
+
+
+
 
 
     def pre_order(self, root):
