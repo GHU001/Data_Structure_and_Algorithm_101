@@ -62,5 +62,21 @@ def cut_rod_recursion2(p, n):
     return cut_rod_recursion_2(p, n)
 
 
-print(cut_rod_recursion(p, 13))
-print(cut_rod_recursion2(p, 13))
+# print(cut_rod_recursion(p, 13))
+# print(cut_rod_recursion2(p, 13))
+#自底向上的实现,先算1，2，3，。。。
+
+@cal_time
+def cut_rod_dp(p, n):
+    r = [0]
+    if n == 0:
+        return 0
+
+    for i in range(1, n + 1):
+        res = 0
+        for j in range(1, i + 1):
+            res = max(res, p[j] + r[i - j])
+        r.append(res)
+    return r[n]
+
+print(cut_rod_dp(p,10))
