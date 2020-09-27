@@ -107,4 +107,19 @@ def cut_dor_solution(p,n):
         n -= r[n]
     return ans
 
-print(cut_rod_dp(p,10))
+# print(cut_rod_dp(p,10))
+
+#longest common string
+def lcs_length(x, y):
+    m = len(x)
+    n = len(y)
+    c =[[0 for _ in range(n+1)] for _ in range(m+1)]
+    for i in range(1, m+1):
+        for j in range(1, n+1):
+            if x[i-1] == y[j-1]:
+                c[i][j] = c[i-1][j-1] + 1
+            else:
+                c[i][j] = max(c[i-1][j], c[i][j-1])
+    return c[m][n]
+
+
