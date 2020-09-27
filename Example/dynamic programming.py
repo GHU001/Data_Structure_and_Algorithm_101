@@ -79,4 +79,32 @@ def cut_rod_dp(p, n):
         r.append(res)
     return r[n]
 
+
+def cut_rod_extend(p,n):
+    r = [0]
+    s = [0]
+
+
+    for i in range(1, n + 1):
+        res_r = 0
+        res_s = 0
+
+        for j in range(1, i + 1):
+            if p[j] + r[i - j]:
+                res_r = p[j] + r[i - j]
+                res_j = j
+
+        r.append(res_r)
+        s.append(res_j)
+    return r[n], s
+
+def cut_dor_solution(p,n):
+    r,s = cut_rod_extend(p,n)
+
+    ans = []
+    while n>0:
+        ans.append(r[n])
+        n -= r[n]
+    return ans
+
 print(cut_rod_dp(p,10))
