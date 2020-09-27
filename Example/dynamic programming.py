@@ -28,9 +28,11 @@ def fibonacci_non_rec(n):
 Rn = max（Pn， R1+Rn-1， R2+Rn-2，... , Rn-1 +R1)
 将钢条切割为长度为i和n-i两段
 方案i的收益为切割两段的收益之和
+
+最优子结构： 问题的最优解由相关子问题的最优解组合而成，这些子问题可以独立求解
 '''
 
-p = [0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30]
+p = [0, 1, 5, 8, 9, 10, 17, 17, 20, 24, 30, 38, 39, 40, 45,47]
 
 def cut_rod_recursion_1(p, n):
     if n == 0:
@@ -46,8 +48,19 @@ def cut_rod_recursion(p, n):
     return cut_rod_recursion_1(p, n)
 
 def cut_rod_recursion_2(p, n):
-    pass
+    if n == 0:
+        return 0
+    else:
+        res = 0
+        for i in range(1, n+1):
+            res = max(res, p[i] + cut_rod_recursion_2(p, n-i))
+    return res
 
 
-print(cut_rod_recursion(p, 9))
+@cal_time
+def cut_rod_recursion2(p, n):
+    return cut_rod_recursion_2(p, n)
 
+
+print(cut_rod_recursion(p, 13))
+print(cut_rod_recursion2(p, 13))
