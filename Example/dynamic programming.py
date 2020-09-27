@@ -122,4 +122,9 @@ def lcs_length(x, y):
                 c[i][j] = max(c[i-1][j], c[i][j-1])
     return c[m][n]
 
+a = "BDCABA"
+b = "ABCBDAB"
+
+print(lcs_length(a,b))
+
 
