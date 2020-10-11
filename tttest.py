@@ -54,6 +54,49 @@ def maze_path(x1,y1,x2,y2):
         print("there is no way out")
         return False
 
+
+def print_r(path):
+
+    curNode = path[-1]
+    realpath = []
+
+    while curNode[2] == -1:
+        realpath.append(curNode[:2])
+        curNode = path[curNode[2]]
+    realpath.append(curNode[:2])
+    realpath.reverse()
+    print(realpath)
+
+
+
+
+
+def maze_path_queue(x1,y1,x2,y2):
+    queue = deque()
+    queue.append((x1,y1,-1))
+    path = []
+
+    while len(queue):
+        curNode = queue.popleft()
+        path.append(curNode)
+        if curNode[0] == x2 and curNode[1] == y2:
+            print_r(path)
+            return True
+
+        for dir in dirs:
+            nextNode = dir(curNode[0], curNode[1])
+            if maze[nextNode[0]][nextNode[1]] == 0:
+                queue.append((nextNode[0],nextNode[1],len(path) -1))
+                maze[nextNode[0]][nextNode[1]] == 2
+
+    else:
+        print("there is no way out")
+        return False
+
+
+
+
+
 maze_path(1,1,8,8)
 
 
