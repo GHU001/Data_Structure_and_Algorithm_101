@@ -60,7 +60,7 @@ def print_r(path):
     curNode = path[-1]
     realpath = []
 
-    while curNode[2] == -1:
+    while curNode[2] != -1:
         realpath.append(curNode[:2])
         curNode = path[curNode[2]]
     realpath.append(curNode[:2])
