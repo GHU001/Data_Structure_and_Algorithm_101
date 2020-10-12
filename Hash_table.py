@@ -11,19 +11,31 @@ class LinkList(object):
             self.item = item
             self.next = None
 
-    class LinkListIterator(object):
+    class LinkListIterator:
+
         def __init__(self, node):
             self.node = node
 
         def __next__(self):
             if self.node:
-                current_node = self.node
-                self.node = current_node.next
-                return current_node.item
+                curNode = self.node
+                self.node = curNode.next
+                return curNode.item
             else:
                 raise StopIteration
 
         def __iter__(self):
             return self
+
+    def __init__(self,iterable=None):
+        self.head = None
+        self.tail = None
+        if iterable:
+            self.extend(iterable)
+
+
+
+
+
 
         
