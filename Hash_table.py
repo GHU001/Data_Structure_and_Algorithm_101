@@ -47,6 +47,12 @@ class LinkList(object):
         for obj in iterable:
             self.append(obj)
 
+    def __iter__(self):
+        return self.LinkListIterator(self.head)
+
+    def __repr__(self):
+        return "<<" + ", ".join(map(str, self)) + ">>"
+
 
 
 
