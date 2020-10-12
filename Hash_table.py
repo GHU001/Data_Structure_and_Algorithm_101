@@ -33,6 +33,21 @@ class LinkList(object):
         if iterable:
             self.extend(iterable)
 
+    def append(self, obj):
+        s = LinkList.Node(obj)
+        if not self.head:
+            self.head = s
+            self.tail = s
+        else:
+            self.tail.next = s
+            self.tail = s
+
+
+    def extend(self, iterable):
+        for obj in iterable:
+            self.append(obj)
+
+
 
 
 
