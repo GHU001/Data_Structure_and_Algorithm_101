@@ -47,13 +47,23 @@ class LinkList(object):
         for obj in iterable:
             self.append(obj)
 
+    def find(self, obj):
+        for n in self:
+            if n == obj:
+                return True
+            else:
+                return False
+
+
     def __iter__(self):
         return self.LinkListIterator(self.head)
 
     def __repr__(self):
         return "<<" + ", ".join(map(str, self)) + ">>"
 
-
+li = [1,2,3,4]
+listnode = LinkList(li)
+print(listnode)
 
 
 
