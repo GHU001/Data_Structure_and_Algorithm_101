@@ -4,7 +4,7 @@ li = [1,3, 4,5,6,7,10]
 
 def linear_search(data_set, value):
     for index,val in enumerate(data_set):
-        if value == value:
+        if val == value:
             return index
     return
 

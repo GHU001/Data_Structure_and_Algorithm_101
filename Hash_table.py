@@ -67,6 +67,23 @@ print(listnode)
 
 
 
+class HashTable:
+
+    def __init__(self, size=101):
+        self.size = size
+        self.T = [LinkList() for _ in range(self.size)]
+
+    def h(self, k):
+        return k % self.size
+
+    def insert(self, k):
+        ind = self.h(k)
+
+    def find(self,k):
+        ind = self.h(k)
+        return self.T[ind].find(k)
+
+
 
 
         
