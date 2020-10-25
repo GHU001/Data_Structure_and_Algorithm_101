@@ -90,8 +90,11 @@ class Queue:
         self.size = size
 
     def push(self, element):
-        self.rear = (self.rear + 1) % self.size
-        self.queue[self.rear] = element
+        if not self.is_filled():
+            self.rear = (self.rear + 1) % self.size
+            self.queue[self.rear] = element
+        else:
+            raise IndexError('Queue is filled')
 
     def pop(self):
         if not self.is_empty():
