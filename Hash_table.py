@@ -78,6 +78,11 @@ class HashTable:
 
     def insert(self, k):
         ind = self.h(k)
+        if self.find(k):
+            print('Duplicated insertion')
+        else:
+            self.T[ind].append(k)
+
 
     def find(self,k):
         ind = self.h(k)

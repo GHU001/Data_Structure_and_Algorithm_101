@@ -96,8 +96,27 @@ def maze_path_queue(x1,y1,x2,y2):
 
 
 
+def match_bracket(s):
+    match = {"}":"{", "]":"[",")":"("}
+    stack = []
+    for ch in s:
+        if ch in ['(','{','[']:
+            stack.append(ch)
+        elif len(stack) == 0:
+            return False
+        elif stack[-1] == match[ch]:
+            stack.pop()
+        else:
+            return False
 
-maze_path(1,1,8,8)
+    if len(stack) == 0:
+        return True
+    else:
+        return False
+
+slist ='([{()}])'
+
+print(match_bracket(slist))
 
 
 
