@@ -94,8 +94,11 @@ class Queue:
         self.queue[self.rear] = element
 
     def pop(self):
-        self.front = (self.front + 1) % self.size
-        return self.queue[self.front]
+        if not self.is_empty():
+            self.front = (self.front + 1) % self.size
+            return self.queue[self.front]
+        else:
+            raise IndexError('Queue is empty')
 
     def is_empty(self):
         return self.front == self.rear
